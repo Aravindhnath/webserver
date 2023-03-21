@@ -59,8 +59,9 @@ print("This is my webserver")
 server_address =('',8000)
 httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
+'''
 OUTPUT:
-![Screenshot (58)](https://user-images.githubusercontent.com/118790841/226551523-56c73d31-92c0-47dd-8706-f70e1c4fa6a4.png)
+
 
 ## RESULT:
 The program is executed succesfully
