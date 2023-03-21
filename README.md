@@ -44,9 +44,8 @@ content='''
 <h2>4. Node js</h2>
 <h2>5. Angular js</h2>
 </body>
-
 </html>
-
+'''
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -61,6 +60,7 @@ server_address =('',8000)
 httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
 ```
+
 ## OUTPUT:
 
 
