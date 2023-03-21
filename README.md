@@ -62,7 +62,7 @@ httpd.serve_forever()
 ```
 
 ## OUTPUT:
-![webserver][webserver.png]
+![webserver](webserver.png)
 
 ## RESULT:
 The program is executed succesfully
