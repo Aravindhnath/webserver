@@ -45,7 +45,7 @@ content='''
 </body>
 
 </html>
-'''
+
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
